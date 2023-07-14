@@ -1,4 +1,4 @@
-export const IconAdd = (props) => {
+export const IconDecrement = (props) => {
 	return (
 		<svg
 			onClick={props.onClick}
@@ -10,11 +10,6 @@ export const IconAdd = (props) => {
 		>
 			<path
 				d='M17 12H7'
-				stroke='white'
-				strokeLinecap='round'
-			/>
-			<path
-				d='M12 17V7'
 				stroke='white'
 				strokeLinecap='round'
 			/>
